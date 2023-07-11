@@ -46,6 +46,32 @@ body{
     background: #E55473;
 }
 /* featured style */
+.featured-content-img{
+    display: flex;
+    justify-content: space-around;
+}
+.fearture-content{
+    
+}
+.one{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    
+    
+}
+.feartured-title{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+
+
+
 .section-title{
     color:  #272727;
     text-align: center;
@@ -123,25 +149,18 @@ main{
 
 .resume-container{
     display: flex;
-    gap: 50px;
+    gap: 30px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     justify-content: space-around;
-    height: 100vh;
     align-items: center;
     padding: 130px;
 }
 .resume-item-title{
     color: #272727;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-    /* color: #474747;
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 10px; */
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 .resume-item-description{
@@ -153,6 +172,13 @@ line-height: normal;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+}
+.bt-primary{
+    padding: 10px 35px;
+    background-color: #E55473;;
+    border: none;
+    color: white;
+    
 }
 
 
@@ -185,6 +211,22 @@ line-height: normal;
     align-items: center;
     text-align: center;
 }
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px;
+    border: none;
+
+}
+.bt-primary{
+    padding: 20px 45px;
+    background-color: #E55473;;
+    border: none;
+    color: white;
+    
+}
+
 /* footer style */
 .footer-color{
     background: #111010;
