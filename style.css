@@ -18,6 +18,8 @@ body{
 }
 .banner .banner-flower{
     width: 400px;
+    margin-bottom: 0;
+    
 }
 
 .banner-title{
@@ -31,7 +33,6 @@ body{
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
 }
@@ -43,4 +44,112 @@ body{
     border: 0;
     border-radius: 8px;
     background: #E55473;
+}
+/* featured style */
+.section-title{
+    color:  #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.featured-product{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.featured-container{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(7, 7, 6, 0.15);
+    /* box-shadow: 5px 6px 50px 0px rgba(0, 0, 0, 0.06); */
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.services{
+    height: 250px;
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.services-image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+.services-icon{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* discount style */
+.text-contentr{
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+    
+}
+.cover-container{
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    
+}
+/* Resume Section styles */
+.resume-column-title{
+    color:  #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.resume-item-title{
+    color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+    /* color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px; */
+}
+
+.resume-item-description{
+    /* color: #757575; */
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.sign{
+    text-align: center;
 }
