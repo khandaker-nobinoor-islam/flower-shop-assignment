@@ -46,32 +46,68 @@ body{
     background: #E55473;
 }
 /* featured style */
-.featured-content-img{
-    display: flex;
-    justify-content: space-around;
+.featured-info-container,.social-media-contact{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
-.fearture-content{
-    
-}
-.one{
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
-    
-    
-}
-.feartured-title{
+.featured-title,.insta-head,.latest-title{
     color: #272727;
 text-align: center;
-font-family: Lato;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 35px;
-text-decoration-line: underline;
+font-size: 40px;
+font-weight: 800;
+line-height: normal;
+}
+.featured-description,.insta-details,.latest-details{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.featured-area-content{
+    height: 500px;
+    width: 1200px;
+    background-color: #fff;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.flowers-full{
+    display: flex;
+    justify-content: space-between;
+}
+.bg-round-top{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 20px;
+    height: 414px;
+    width: 340px;
+}
+.pink-flowers{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.maroon-flowers{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.yellow-flowers{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.flowers-image{
+    width: 100%;
+    height: 400px;
+    padding-top: 32px;
+}
+.bottom-flowers{
+    display: flex;
+    justify-content: space-around;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
 }
 
-
-
+/* instagram style */
 .section-title{
     color:  #272727;
     text-align: center;
@@ -87,20 +123,6 @@ text-decoration-line: underline;
     font-weight: 400;
     line-height: 30px;
 }
-.featured-product{
-    display: flex;
-    justify-content: space-around;
-    
-    
-}
-.featured-container{
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(7, 7, 6, 0.15);
-    /* box-shadow: 5px 6px 50px 0px rgba(0, 0, 0, 0.06); */
-    justify-content: space-around;
-    margin-bottom: 0;
-}
-
 
 main{
     max-width: 1140px;
@@ -127,6 +149,9 @@ main{
     display: flex;
     justify-content: space-around;
 }
+.services-image .div{
+    text-align: center;
+}
 
 
 /* discount style */
@@ -140,14 +165,14 @@ main{
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     
 }
-/* Resume Section styles */
+/* shop Section styles */
 .resume-column-title{
     color:  #474747;
     font-size: 30px;
     font-weight: 700;
 }
 
-.resume-container{
+.shop-container{
     display: flex;
     gap: 30px;
     border-radius: 8px;
@@ -156,14 +181,14 @@ main{
     align-items: center;
     padding: 130px;
 }
-.resume-item-title{
+.shop-title{
     color: #272727;
     font-family: Lato;
     font-size: 40px;
     font-weight: 800;
 }
 
-.resume-item-description{
+.shop-description{
     /* color: #757575; */
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -173,6 +198,9 @@ main{
     font-weight: 400;
     line-height: 30px;
 }
+span{
+    color: #E55473;
+}
 .bt-primary{
     padding: 10px 35px;
     background-color: #E55473;;
@@ -181,8 +209,7 @@ main{
     
 }
 
-
-/* shop product*/
+/* subcribe product*/
 .product{
     display: flex;
     gap: 5px;
@@ -207,6 +234,14 @@ main{
     background-repeat: no-repeat;
     
 }
+.dec{
+    color: #27272799;
+}
+.sb-title{
+    color: #272727;
+    font-size: 30px;
+    margin-bottom: 0;
+}
 .from-btn{
     align-items: center;
     text-align: center;
@@ -215,9 +250,8 @@ input{
     position: relative;
     display: inline-block;
     font-size: 30px;
-    padding: 10px;
+    padding: 9px;
     border: none;
-
 }
 .bt-primary{
     padding: 20px 45px;
