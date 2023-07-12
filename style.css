@@ -231,7 +231,10 @@ span{
     justify-content: center;
     border-radius: 8px;
     background-image: url('/Flower Asset/Rectangle 9.png');
+    background-blend-mode: overlay;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     
 }
 .dec{
